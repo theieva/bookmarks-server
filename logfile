@@ -32,3 +32,112 @@
 	    ('Caravan of Dreams', 'https://caravanofdreams.net/', 'Nice vegan restaurant', 5),
 	    ('Saigon Shack', 'http://www.saigonshack.com/', 'Best bahn mi sandwiches', 5)
 	COMMIT;
+2020-01-11 12:22:15.706 EST [41068] FATAL:  database "admin" does not exist
+2020-01-11 12:22:15.725 EST [41069] FATAL:  database "admin" does not exist
+2020-01-11 12:34:38.276 EST [42380] FATAL:  database "admin" does not exist
+2020-01-11 12:34:38.285 EST [42381] FATAL:  database "admin" does not exist
+2020-01-11 12:51:51.318 EST [44287] FATAL:  database "admin" does not exist
+2020-01-11 12:51:51.335 EST [44288] FATAL:  database "admin" does not exist
+2020-01-11 12:53:00.417 EST [44425] FATAL:  database "admin" does not exist
+2020-01-11 12:53:00.428 EST [44426] FATAL:  database "admin" does not exist
+2020-01-11 13:33:25.968 EST [48856] ERROR:  relation "schemaversion" does not exist at character 39
+2020-01-11 13:33:25.968 EST [48856] STATEMENT:  
+	        SELECT version 
+	        FROM schemaversion 
+	        ORDER BY version DESC 
+	        LIMIT 1
+2020-01-11 13:41:29.618 EST [49843] ERROR:  invalid input value for enum article_category: "Listicle" at character 1384
+2020-01-11 13:41:29.618 EST [49843] STATEMENT:  INSERT INTO blogful_articles (title, style, content)
+	VALUES
+	('First post!', 'Interview',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non. Adipisci, pariatur. Molestiae, libero esse hic adipisci autem neque?'),
+	  ('Second post!', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, exercitationem cupiditate dignissimos est perspiciatis, nobis commodi alias saepe atque facilis labore sequi deleniti. Sint, adipisci facere! Velit temporibus debitis rerum.'),
+	  ('Third post!', 'News',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptate? Necessitatibus, reiciendis? Cupiditate totam laborum esse animi ratione ipsa dignissimos laboriosam eos similique cumque. Est nostrum esse porro id quaerat.'),
+	  ('Fourth post', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, consequuntur. Cum quo ea vero, fugiat dolor labore harum aut reprehenderit totam dolores hic quaerat, est, quia similique! Aspernatur, quis nihil?'),
+	  ('Fifth post', 'News',
+	    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta fugiat itaque recusandae rerum sed nobis. Excepturi voluptas nisi, labore officia, nobis repellat rem ab tempora, laboriosam odio reiciendis placeat?'),
+	  ('Sixth post', 'Listicle',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+	  ('Seventh post', 'Listicle',
+	    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, voluptatum nam culpa minus dolore ex nisi recusandae autem ipsa assumenda doloribus itaque? Quos enim itaque error fuga quaerat nesciunt ut?'),
+	  ('Eigth post', 'News',
+	    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi sint beatae obcaecati voluptas veniam amet adipisci perferendis quo illum, dignissimos aspernatur ratione iusto, culpa quam neque impedit atque doloribus!'),
+	  ('Ninth post', 'Story',
+	    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos architecto repellat, in amet soluta exercitationem perferendis eius perspiciatis praesentium voluptate nisi deleniti eaque? Rerum ea quisquam dolore, non error earum?'),
+	  ( 'Tenth post', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus veniam consectetur tempora, corporis obcaecati ad nisi asperiores tenetur, autem magnam. Iste, architecto obcaecati tenetur quidem voluptatum ipsa quam?');
+2020-01-11 13:42:06.629 EST [49922] ERROR:  invalid input value for enum article_category: "Listicle" at character 1386
+2020-01-11 13:42:06.629 EST [49922] STATEMENT:  INSERT INTO blogful_articles (title, style, content)
+	VALUES
+	  ('First post!', 'Interview',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non. Adipisci, pariatur. Molestiae, libero esse hic adipisci autem neque?'),
+	  ('Second post!', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, exercitationem cupiditate dignissimos est perspiciatis, nobis commodi alias saepe atque facilis labore sequi deleniti. Sint, adipisci facere! Velit temporibus debitis rerum.'),
+	  ('Third post!', 'News',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, voluptate? Necessitatibus, reiciendis? Cupiditate totam laborum esse animi ratione ipsa dignissimos laboriosam eos similique cumque. Est nostrum esse porro id quaerat.'),
+	  ('Fourth post', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, consequuntur. Cum quo ea vero, fugiat dolor labore harum aut reprehenderit totam dolores hic quaerat, est, quia similique! Aspernatur, quis nihil?'),
+	  ('Fifth post', 'News',
+	    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta fugiat itaque recusandae rerum sed nobis. Excepturi voluptas nisi, labore officia, nobis repellat rem ab tempora, laboriosam odio reiciendis placeat?'),
+	  ('Sixth post', 'Listicle',
+	    'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+	  ('Seventh post', 'Listicle',
+	    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, voluptatum nam culpa minus dolore ex nisi recusandae autem ipsa assumenda doloribus itaque? Quos enim itaque error fuga quaerat nesciunt ut?'),
+	  ('Eigth post', 'News',
+	    'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi sint beatae obcaecati voluptas veniam amet adipisci perferendis quo illum, dignissimos aspernatur ratione iusto, culpa quam neque impedit atque doloribus!'),
+	  ('Ninth post', 'Story',
+	    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos architecto repellat, in amet soluta exercitationem perferendis eius perspiciatis praesentium voluptate nisi deleniti eaque? Rerum ea quisquam dolore, non error earum?'),
+	  ( 'Tenth post', 'How-to',
+	    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum molestiae accusamus veniam consectetur tempora, corporis obcaecati ad nisi asperiores tenetur, autem magnam. Iste, architecto obcaecati tenetur quidem voluptatum ipsa quam?');
+2020-01-14 05:59:40.863 EST [70465] ERROR:  relation "schemaversion" does not exist at character 39
+2020-01-14 05:59:40.863 EST [70465] STATEMENT:  
+	        SELECT version 
+	        FROM schemaversion 
+	        ORDER BY version DESC 
+	        LIMIT 1
+2020-01-14 06:31:36.268 EST [74220] ERROR:  duplicate key value violates unique constraint "blogful_articles_pkey"
+2020-01-14 06:31:36.268 EST [74220] DETAIL:  Key (id)=(1) already exists.
+2020-01-14 06:31:36.268 EST [74220] STATEMENT:  insert into "blogful_articles" ("content", "date_published", "id", "style", "title") values ($1, $2, $3, $4, $5), ($6, $7, $8, $9, $10), ($11, $12, $13, $14, $15), ($16, $17, $18, $19, $20)
+2020-01-14 06:34:03.748 EST [74501] ERROR:  duplicate key value violates unique constraint "blogful_articles_pkey"
+2020-01-14 06:34:03.748 EST [74501] DETAIL:  Key (id)=(1) already exists.
+2020-01-14 06:34:03.748 EST [74501] STATEMENT:  insert into "blogful_articles" ("content", "date_published", "id", "style", "title") values ($1, $2, $3, $4, $5), ($6, $7, $8, $9, $10), ($11, $12, $13, $14, $15), ($16, $17, $18, $19, $20)
+2020-01-14 06:34:32.568 EST [74559] ERROR:  duplicate key value violates unique constraint "blogful_articles_pkey"
+2020-01-14 06:34:32.568 EST [74559] DETAIL:  Key (id)=(1) already exists.
+2020-01-14 06:34:32.568 EST [74559] STATEMENT:  insert into "blogful_articles" ("content", "date_published", "id", "style", "title") values ($1, $2, $3, $4, $5), ($6, $7, $8, $9, $10), ($11, $12, $13, $14, $15), ($16, $17, $18, $19, $20)
+2020-01-14 06:34:44.300 EST [74587] ERROR:  duplicate key value violates unique constraint "blogful_articles_pkey"
+2020-01-14 06:34:44.300 EST [74587] DETAIL:  Key (id)=(1) already exists.
+2020-01-14 06:34:44.300 EST [74587] STATEMENT:  insert into "blogful_articles" ("content", "date_published", "id", "style", "title") values ($1, $2, $3, $4, $5), ($6, $7, $8, $9, $10), ($11, $12, $13, $14, $15), ($16, $17, $18, $19, $20)
+2020-01-14 13:35:23.486 EST [80536] ERROR:  duplicate key value violates unique constraint "blogful_articles_pkey"
+2020-01-14 13:35:23.486 EST [80536] DETAIL:  Key (id)=(1) already exists.
+2020-01-14 13:35:23.486 EST [80536] STATEMENT:  insert into "blogful_articles" ("content", "date_published", "id", "style", "title") values ($1, $2, $3, $4, $5), ($6, $7, $8, $9, $10), ($11, $12, $13, $14, $15), ($16, $17, $18, $19, $20)
+2020-01-14 19:38:20.172 EST [92145] FATAL:  database "admin" does not exist
+2020-01-14 19:38:20.187 EST [92146] FATAL:  database "admin" does not exist
+2020-01-14 19:41:34.209 EST [92572] FATAL:  database "admin" does not exist
+2020-01-14 19:41:34.219 EST [92573] FATAL:  database "admin" does not exist
+2020-01-14 19:42:32.351 EST [92700] FATAL:  database "admin" does not exist
+2020-01-14 19:42:32.361 EST [92701] FATAL:  database "admin" does not exist
+2020-01-14 19:45:29.569 EST [93079] FATAL:  database "admin" does not exist
+2020-01-14 19:45:29.585 EST [93080] FATAL:  database "admin" does not exist
+2020-01-14 19:45:39.772 EST [93104] FATAL:  database "admin" does not exist
+2020-01-14 19:45:39.782 EST [93105] FATAL:  database "admin" does not exist
+2020-01-14 19:47:26.319 EST [93336] FATAL:  database "admin" does not exist
+2020-01-14 19:47:26.336 EST [93337] FATAL:  database "admin" does not exist
+2020-01-14 19:54:19.807 EST [25221] LOG:  received fast shutdown request
+2020-01-14 19:54:19.808 EST [25221] LOG:  aborting any active transactions
+2020-01-14 19:54:19.808 EST [93535] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93529] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [83429] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93533] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93530] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93532] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93528] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [83428] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93531] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [93534] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.808 EST [83427] FATAL:  terminating connection due to administrator command
+2020-01-14 19:54:19.812 EST [25221] LOG:  background worker "logical replication launcher" (PID 25228) exited with exit code 1
+2020-01-14 19:54:19.813 EST [25223] LOG:  shutting down
+2020-01-14 19:54:19.822 EST [25221] LOG:  database system is shut down
